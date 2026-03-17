@@ -5,3 +5,7 @@ function add(valor) {
 function clearDisplay() {
     document.getElementById("display").value = "";
 }
+
+function calcular() {
+    let conta = document.getElementById("display").value;
+}
