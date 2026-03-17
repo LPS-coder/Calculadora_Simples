@@ -6,3 +6,9 @@ body {
     background: #1e1e1e;
     font-family: Arial;
 }
+
+.calculadora {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
