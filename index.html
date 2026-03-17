@@ -3,37 +3,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Simples</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.csss">
 </head>
 <body>
-    <div>
-        <h3>Números</h3>
+    
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+            
+        <div class="botoes"></div>
+            <button onclick="add('7')">7</button>
+            <button onclick="add('8')">8</button>
+            <button onclick="add('9')">9</button>
+            <button onclick="add('/')">/</button>
+
+            <button onclick="add('4')">4</button>
+            <button onclick="add('5')">5</button>
+            <button onclick="add('6')">6</button>
+            <button onclick="add('*')">*</button>
+
+            <button onclick="add('1')">1</button>
+            <button onclick="add('2')">2</button>
+            <button onclick="add('3')">3</button>
+            <button onclick="add('-')">-</button>
+
+            <button onclick="add('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="add('+')">+</button>
+
     </div>
 
-    <div class="flex">
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-    </div>
-    <div class="flex">
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-    </div>
-    <div class="flex">
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-    </div>
-    <div>
-        <button class="button">0</button>
-    </div>
-       
-    <button class="button">+</button>
-    <button class="button">-</button>
-    <button class="button">x</button>
-    <button class="button">=</button>    
-    <button class="button">÷</button>
 </body>
 <script src="script.js"></script>
 </html>
