@@ -5,7 +5,7 @@ body {
     height: 100vh;
     background: #000;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .calculadora {
@@ -54,6 +54,7 @@ button {
 
 .igual {
     background: #ff9500;
+    grid-row: span 2;
 }
 
 .zero {
